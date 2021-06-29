@@ -31,3 +31,5 @@ def account_bookmarks(request):
 
 def account_cards(request):
     return render(request, 'account_cards.html')
+
+# git test. 유재연
