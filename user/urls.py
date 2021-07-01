@@ -4,6 +4,10 @@ from . import views
 
 
 urlpatterns = [
-    path('index/', views.index),
-   
+    path('account/', views.account),
+    path('bookmarks/', views.bookmarks),
+    path('cards/', views.cards),
+    path('login/', views.login),
+    path('notifications/', views.notifications),
+    path('pwd_reset/', views.pwd_reset),
 ]
